@@ -4,9 +4,7 @@ extends TextureButton
 
 func _on_button_down():
 	generate_block()
-	pass # Replace with function body.
 
 func generate_block() -> void: 
 	var block = preBlock.instantiate();
 	add_child(block)
-	pass
